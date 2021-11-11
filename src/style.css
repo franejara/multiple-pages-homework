@@ -1,20 +1,58 @@
 body {
-  background-color: rgb(247, 247, 183);
+  background-color: rgb(241, 207, 207);
 }
 
 h1 {
+  padding-top: 30px;
   text-align: center;
 }
+
+h2 {
+  text-align: center;
+}
+
+p {
+  padding: 20px;
+  margin: 20px;
+}
+
 a {
   padding: 20px;
 }
 
-img {
-  max-width: 600px;
+.image {
+  width: 100%;
+  height: auto;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .main-menu {
+  text-align: center;
+}
+
+.container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.link {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.about {
+  margin-top: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact {
+  margin-top: 30px;
   text-align: center;
 }
